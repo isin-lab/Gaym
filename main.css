@@ -1,0 +1,56 @@
+* {
+  font-family: 'Comfortaa'
+}
+.card {
+  width: 600px;
+  margin-bottom: 0;
+}
+
+.hole-game {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* font-family: 'Comfortaa', cursive; */
+.header {
+  text-align: center;
+  font-size: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+.hole-game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  max-width: 345px;
+}
+.hole {
+  width: 100px;
+  height: 100px;
+  margin:  5px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.hole_has-mole {
+  background-image: url(img/dick.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: palevioletred;
+}
+span {
+ font-size: 30px;
+}
